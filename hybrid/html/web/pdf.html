@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html dir="ltr" mozdisallowselectionprint>
+	<head>
+		<meta charset="utf-8">
+		<title>PDF下载</title>
+	</head>
+	
+	<style type="text/css">
+		*{padding: 0;margin: 0;}
+		.tip {
+			background-color: #969696;
+			opacity: 2;
+			position: absolute;
+			right: 60px;
+			top: 20px;
+		}
+		.tip-img{
+			z-index: 9999;
+			width: 489px;
+			height: 326px;
+		}
+		#itps{
+			    position: fixed;
+			    left: 12%;
+			    font-size: 3rem;
+			    color: #fff;
+			    margin-top: 5rem;
+		}
+	</style>
+	
+	<body class="tip">
+		<div style="width:100%;">
+			<image src="ttip.png" class="tip-img"></image>
+		</div>
+		
+		<!-- <h1>下载方式:</h1>
+		<h2>第一步:请点击右上角-选择发送给朋友</h2>
+		<h2>第二步:选择在浏览器中打开</h2> -->
+		
+		<div id="itps">
+			苹果手机请点击:<br/>分享（下面中间的操作）-> <br/>选项（弹出框上边） -> <br/>（选择PDF） -><br/> 存储到"文件"
+		</div>
+		
+		
+		<script>
+			function ismobile(test){
+			    var u = navigator.userAgent, app = navigator.appVersion;
+			    if(/AppleWebKit.*Mobile/i.test(navigator.userAgent) || (/MIDP|SymbianOS|NOKIA|SAMSUNG|LG|NEC|TCL|Alcatel|BIRD|DBTEL|Dopod|PHILIPS|HAIER|LENOVO|MOT-|Nokia|SonyEricsson|SIE-|Amoi|ZTE/.test(navigator.userAgent))){
+			     if(window.location.href.indexOf("?mobile")<0){
+			      try{
+			       if(/iPhone|mac|iPod|iPad/i.test(navigator.userAgent)){
+			        return '0';
+			       }else{
+			        return '1';
+			       }
+			      }catch(e){}
+			     }
+			    }else if( u.indexOf('iPad') > -1){
+			        return '0';
+			    }else{
+			        return '1';
+			    }
+			};
+			
+			if(ismobile(1) == 0){
+				document.getElementById("itps").style.display="block";
+			}else{
+				document.getElementById("itps").style.display="none";
+			}
+		</script>
+		
+		
+	</body>
+	
+	
+	
+</html>
+

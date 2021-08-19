@@ -1,0 +1,350 @@
+{
+"icon":["/static/icon/cz.png","/static/icon/et.png","/static/icon/et2.png","/static/icon/fbj.png","/static/icon/yy.png","/static/icon/jkz.png","/static/icon/mz.png","/static/icon/ptmz.png","/static/icon/sea.png","/static/icon/tj.png","/static/icon/ym.png","/static/icon/zj.png"],
+"url":[
+{"name":"疫苗","url":"/pages/ymyy/ymyy"},
+{"name":"健康证","url":"/pages/jkz/jkz"},
+{"name":"妇保健卡","url":"/pages/fbj/fbj"},
+{"name":"出诊","url":"/pages/yycz/yycz"},
+{"name":"门诊","url":"/pages/ghyy/ghyy"},
+
+{"name":"普通门诊（列表）","url":"/pages/ptmz/list"},
+{"name":"普通门诊（预约）","url":"/pages/ptmz/view" ,"lx":"sfz,sex,child","type":"7,8,9,10,11,12,13,15,17,18,19"},
+{"name":"确定签字页","url":"/pages/ptmz/viewLoad" ,"href":"/pages/ptmz/view"},
+
+{"name":"体检","url":"/pages/tjyy/sqtjyy","type":"14"},
+{"name":"信息公告","url":"/pages/info/list"},
+
+{"name":"普通查询","url":"/pages/search/search"},
+
+
+{"name":"稀缺疫苗","url":"/pages/xqym/index","type":"1","lx":"16","zl":"pt,xq"},
+{"name":"西岗我的预约","url":"/pages/xqym/yyrecord"},
+{"name":"西岗我的排队","url":"/pages/xqym/myJh"},
+{"name":"西岗我的预约","url":"/pages/xqym/yyrecord"},
+
+{"name":"新冠疫苗(第一针)预约","url":"/pages/xqym/xgview1","lx":"sfzsex","type":"17","times":"0,1"}
+]
+}
+
+
+
+{
+    "banner":"../../static/banner01.jpg",
+	"notice":true,
+    "menu":[
+	{
+            "icon":"/static/icon/ym.png",
+            "name":"成人疫苗",
+            "tag":"成人疫苗预约",
+            "type":"",
+            "url":"/pages/ymyy/ymyy",
+            "param":"",
+            "title":"",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/jkz.png",
+            "name":"健康证预约",
+            "tag":"",
+            "type":"",
+            "url":"/pages/jkz/jkz",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		
+		
+		{
+            "icon":"/static/icon/ptmz.png",
+            "name":"两癌筛查",
+            "tag":"排查乳腺癌、<br>宫颈癌",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		
+		
+		{
+            "icon":"/static/icon/ptmz.png",
+            "name":"门诊预约",
+            "tag":"普通门诊预约",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/zj.png",
+            "name":"专家门诊",
+            "tag":"专家定期门诊",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/fbj.png",
+            "name":"妇保建卡",
+            "tag":"",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/et.png",
+            "name":"儿童体检",
+            "tag":"",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		
+		{
+            "icon":"/static/icon/ym.png",
+            "name":"成人疫苗",
+            "tag":"成人疫苗预约",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		
+		
+		{
+            "icon":"/static/icon/jkz.png",
+            "name":"健康证预约",
+            "tag":"",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		
+		{
+            "icon":"/static/icon/ym.png",
+            "name":"成人疫苗",
+            "tag":"成人流感疫苗<br>预约",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/cz.png",
+            "name":"出诊服务",
+            "tag":"医生出诊预约",
+            "type":"cz",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/tj.png",
+            "name":"健康体检",
+            "tag":"体检预约",
+            "type":"tj",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/et2.png",
+            "name":"儿童疫苗",
+            "tag":"儿童疫苗",
+            "type":"etym",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/tj.png",
+            "name":"全科预约",
+            "tag":"全科预约",
+            "type":"qk",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"两癌筛查",
+            "lx":2
+        },
+		 {
+            "icon":"/static/icon/cz.png",
+            "name":"三伏贴",
+            "tag":"传统中医",
+            "type":"",
+            "url":"/pages/ptmz/view",
+            "param":"type=11&lx=sfz",
+            "title":"三伏贴",
+            "lx":2
+        },
+		
+		
+		
+        {
+            "icon":"/static/icon/tj.png",
+            "name":"家庭医生<br>预约",
+            "tag":"",
+            "type":"jtys",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"家庭医生预约",
+            "lx":2
+        },
+		 {
+            "icon":"/static/icon/tj.png",
+            "name":"家庭医生<br>预约",
+            "tag":"",
+            "type":"jtys",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"家庭医生预约",
+            "lx":2
+        },
+		
+		{
+            "icon":"/static/icon/tj.png",
+            "name":"体检预约",
+            "tag":"",
+            "type":"sqtj",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"家庭医生预约",
+            "lx":2
+        },
+		{
+            "icon":"/static/icon/ptmz.png",
+            "name":"核酸检测",
+            "tag":"",
+            "type":"hsjc",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"家庭医生预约",
+            "lx":2
+        },
+		
+       
+        {
+            "icon":"/static/icon/sea.png",
+            "name":"查询预约",
+            "tag":"查询我的预约",
+            "type":"",
+            "url":"/pages/search/search",
+            "param":"",
+            "title":"",
+            "lx":1
+        }
+    ],
+	"menu2":[
+        {
+            "icon":"/static/icon/tj.png",
+            "name":"家庭医生<br>预约",
+            "tag":"",
+            "type":"",
+            "url":"/pages/ptmz/viewLoad",
+            "param":"lx=sfz&type=12",
+            "title":"家庭医生预约",
+            "lx":2
+        },
+        {
+            "icon":"/static/icon/cz.png",
+            "name":"三伏贴",
+            "tag":"传统中医",
+            "type":"",
+            "url":"/pages/ptmz/view",
+            "param":"type=11&lx=sfz",
+            "title":"三伏贴",
+            "lx":2
+        },
+        {
+            "icon":"/static/icon/sea.png",
+            "name":"查询预约",
+            "tag":"查询我的预约",
+            "type":"",
+            "url":"/pages/search/search",
+            "param":"",
+            "title":"",
+            "lx":1
+        }
+    ],
+	
+}
+
+------------------
+207
+{
+"banner":"../../static/banner01.jpg",
+"menu":
+[{
+	"icon":"/static/icon/tj.png",
+	"name":"家庭医生<br>预约",
+	"tag":"",
+	"type":"",
+	"url":"/pages/ptmz/viewLoad",
+	"param":"lx=sfz&type=12",
+	"title":"家庭医生预约",
+	"lx":2
+},
+{
+	"icon":"/static/icon/cz.png",
+	"name":"三伏贴",
+	"tag":"传统中医",
+	"type":"",
+	"url":"/pages/ptmz/view",
+	"param":"type=11&lx=sfz",
+	"title":"三伏贴",
+	"lx":2
+},
+{
+	"icon":"/static/icon/sea.png",
+	"name":"查询预约",
+	"tag":"查询我的预约",
+	"type":"",
+	"url":"/pages/search/search",
+	"param":"",
+	"title":"",
+	"lx":1
+}
+],
+"notice":true
+}
+
+101
+{"banner":"../../static/banner.jpg","notice":false,"menu":[{"icon":"/static/icon/ptmz.png","name":"核酸检测","tag":"","type":"hsjc","url":"/pages/ptmz/viewLoad","param":"lx=sfzsex&type=15&href=/pages/ptmz/view","title":"核酸检测","lx":2},{"icon":"/static/icon/ym.png","name":"新冠疫苗","tag":"新冠疫苗预约<br><div style='text-align:center'>(第一针)</div>","type":"hsjc","url":"/pages/ptmz/viewLoad","param":"lx=sfzsex&type=17&times=0&href=/pages/xqym/xgview1","title":"新冠疫苗预约","lx":2},{"icon":"/static/icon/cz.png","name":"三伏贴","tag":"传统中医","type":"","url":"/pages/ptmz/view","param":"type=11&lx=sfz","title":"三伏贴","lx":2},{"icon":"/static/icon/tj.png","name":"健康体检","tag":"体检预约","type":"tj","url":"/pages/tjyy/xz","param":"","title":"","lx":2},{"icon":"/static/icon/zj.png","name":"专家门诊","tag":"专家定期门诊","type":"","url":"/pages/ghyy/ghyy","param":"","title":"","lx":2},{"icon":"/static/icon/cz.png","name":"出诊服务","tag":"医生出诊预约","type":"cz","url":"/pages/yycz/yycz","param":"","title":"","lx":2},{"icon":"/static/icon/ptmz.png","name":"两癌筛查","tag":"排查乳腺癌、<br>宫颈癌","type":"","url":"/pages/ptmz/view","param":"type=10&lx=sfz","title":"两癌筛查","lx":2},{"icon":"/static/icon/sea.png","name":"查询预约","tag":"查询我的预约","type":"","url":"/pages/search/search","param":"","title":"","lx":2}],"menu2":[]}
+
+201
+{"banner":"../../static/banner.jpg","notice":false,"menu":[{"icon":"/static/icon/ptmz.png","name":"核酸检测","tag":"","type":"hsjc","url":"/pages/ptmz/viewLoad","param":"lx=sfzsex&type=15&href=/pages/ptmz/view","title":"核酸检测","lx":2},{"icon":"/static/icon/ptmz.png","name":"两癌筛查","tag":"排查乳腺癌、<br>宫颈癌","type":"","url":"/pages/ptmz/view","param":"type=10&lx=sfz","title":"两癌筛查","lx":2},{"icon":"/static/icon/jkz.png","name":"健康证","tag":"健康证预约","type":"","url":"/pages/jkz/jkz","param":"","title":"","lx":2},{"icon":"/static/icon/sea.png","name":"查询预约","tag":"查询我的预约","type":"","url":"/pages/search/search","param":"","title":"","lx":2}],"menu2":[]}
+
+202
+{"banner":"../../static/banner.jpg","notice":true,"menu":[{"icon":"/static/icon/ym.png","name":"接种时间<br>预约","tag":"","type":"xgymyy","url":"/pages/xqym/index","param":"type=1&lx=16&zl=pt","title":"","lx":2},{"icon":"/static/icon/sea.png","name":"我的预约","tag":"","type":"xgwdyy","url":"/pages/xqym/yyrecord","param":"","title":"","lx":2},{"icon":"/static/icon/jkz.png","name":"稀缺疫苗<br>排队","tag":"","type":"xgympd","url":"/pages/xqym/index","param":"type=1&lx=16&zl=xq","title":"","lx":2},{"icon":"/static/icon/sea.png","name":"我的排队","tag":"","type":"xgwdpd","url":"/pages/xqym/myJh","param":"","title":"","lx":2}],"menu2":[{"icon":"/static/icon/ym.png","name":"新冠疫苗第一针","tag":"新冠疫苗预约<br><div style='text-align:center'>(第一针)</div>","type":"xgym1","url":"/pages/xqym/xgview1","param":"lx=sfzsex&type=17&times=0","title":"","lx":2},{"icon":"/static/icon/ym.png","name":"新冠疫苗第二针","tag":"新冠疫苗预约<br><div style='text-align:center'>(第二针)</div>","type":"xgym2","url":"/pages/xqym/xgview1","param":"lx=sfzsex&type=17&times=0","title":"","lx":2},{"icon":"/static/icon/sea.png","name":"查询预约","tag":"查询我的预约","type":"","url":"/pages/search/search","param":"","title":"","lx":2}]}
+
+203
+{"banner":"../../static/banner.jpg","notice":false,"menu":[{"icon":"/static/icon/fbj.png","name":"妇女保健科","tag":"妇女保健科","type":"fbjyhm","url":"/pages/ptmz/view","param":"lx=sfz&type=19","title":"妇女保健科","lx":2},{"icon":"/static/icon/et.png","name":"儿童保健科","tag":"儿童保健科","type":"xgwdyy","url":"/pages/ptmz/view","param":"lx=childsfz&type=18","title":"儿童保健科","lx":2},{"icon":"/static/icon/tj.png","name":"全科预约","tag":"全科预约","type":"xgympd","url":"/pages/ptmz/view","param":"lx=sfz&type=9","title":"","lx":2},{"icon":"/static/icon/sea.png","name":"查询预约","tag":"查询我的预约","type":"","url":"/pages/search/search","param":"","title":"","lx":2}],"menu2":[]}
+
+204
+{"banner":"../../static/banner.jpg","notice":false,"menu":[{"icon":"/static/icon/tj.png","name":"家庭医生<br>预约","tag":"","type":"","url":"/pages/ptmz/viewLoad","param":"lx=sfz&type=12&href=/pages/ptmz/view","title":"家庭医生预约","lx":2},{"icon":"/static/icon/ptmz.png","name":"核酸检测","tag":"","type":"","url":"/pages/ptmz/view","param":"type=15&lx=sfzsex","title":"核酸检测","lx":2},{"icon":"/static/icon/tj.png","name":"体检预约","tag":"","type":"","url":"/pages/tjyy/xz","param":"","title":"","lx":2},{"icon":"/static/icon/cz.png","name":"三伏贴","tag":"传统中医","type":"","url":"/pages/ptmz/viewLoad","param":"type=11&lx=sfz&href=/pages/ptmz/view","title":"三伏贴","lx":2},{"icon":"/static/icon/fbj.png","name":"妇女保健科","tag":"妇女保健科","type":"fbjyhm","url":"/pages/ptmz/view","param":"lx=sfz&type=19","title":"妇女保健科","lx":2},{"icon":"/static/icon/sea.png","name":"查询预约","tag":"查询我的预约","type":"","url":"/pages/search/search","param":"","title":"","lx":2}],"menu2":[]}
+
+205
+{"banner":"../../static/banner.jpg","notice":false,"menu":[{"icon":"/static/icon/ptmz.png","name":"核酸检测","tag":"","type":"","url":"/pages/ptmz/viewLoad","param":"type=15&lx=sfzsex&href=/pages/ptmz/view","title":"核酸检测","lx":2},{"icon":"/static/icon/sea.png","name":"查询预约","tag":"查询我的预约","type":"","url":"/pages/search/search","param":"","title":"","lx":2}],"menu2":[]}
+
+
+
+208
+{"banner":"../../static/banner.jpg","notice":false,"menu":[{"icon":"/static/icon/ptmz.png","name":"核酸检测","tag":"","type":"hsjc","url":"/pages/ptmz/viewLoad","param":"lx=sfzsex&type=15&href=/pages/ptmz/view","title":"核酸检测","lx":2},{"icon":"/static/icon/ym.png","name":"新冠疫苗","tag":"新冠疫苗预约<br><div style='text-align:center'>(第一针)</div>","type":"hsjc","url":"/pages/ptmz/viewLoad","param":"lx=sfzsex&type=17×=0&href=/pages/xqym/xgview1","title":"新冠疫苗预约","lx":2},{"icon":"/static/icon/ptmz.png","name":"两癌筛查","tag":"排查乳腺癌、<br>宫颈癌","type":"","url":"/pages/ptmz/view","param":"type=10&lx=sfz","title":"两癌筛查","lx":2},{"icon":"/static/icon/et.png","name":"儿童保健科","tag":"儿童保健科","type":"xgwdyy","url":"/pages/ptmz/view","param":"lx=childsfz&type=18","title":"儿童保健科","lx":2},{"icon":"/static/icon/sea.png","name":"查询预约","tag":"查询我的预约","type":"","url":"/pages/search/search","param":"","title":"","lx":1}],"menu2":[]}
+
+
+
+
+
